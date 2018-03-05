@@ -1,0 +1,72 @@
+1、手机端微信或者浏览器默认返回按钮，点击返回走缓存，不执行页面js；如果页面离开时有loading，页面要加onpagehide属性函数
+2、var dates=new Date("2012-01-02 12:12:12");手机上dates为NaN;pc上为正确的日期格式；
+   var dates=new Date("2012-01-02");pc和手机上dates为2012-01-02 08:00:00;
+   var dates=new Date("2012/01/02");pc和手机上dates为2012-01-02 00:00:00;
+3、input[type='file'],移动端文件上传，安卓微信区别jpg和jpeg两种格式，ios和pc都把jpg归类于jpeg，所以写accept限制时两个都要写上
+4、input[type='text']用padding撑，不要只用line-height，否则pc端：360浏览器会只显示文字高度；移动端：焦点会占整个框的高度
+5、input[type='text']如果设置require属性，火狐浏览器会自动给标签加一个红色边框
+6、var arr=arr1深复制,var arr=arr1.slice(0)浅复制
+7、文件上传兼容ie8,要用jq.form.js或者form提交，删除上传文件上传看第12点
+8、string.trim(),不兼容ie8,要用$.trim(string);
+9、文件上传接收返回信息（兼容ie）：后端
+	public static void writerJson1(HttpServletResponse response,Object object){
+			try {
+				response.setContentType("text/html; charset=utf-8");
+				writer(response,JSONUtil.toJSONString(object));
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+	}
+
+前端： var opt = {
+			type: "post",
+			url:ctx + "/businessUser/importExcel.do",
+			success: function(res){
+//			JSON.parse(res);
+			var resJson=eval('(' + res + ')');
+			console.log(resJson);
+			tipAlert(resJson.msg);
+			CommonUtil.hideFakeloader();
+			$(".a-upload input").val("");//文件清空看第12点
+			$(".a-upload span").html("请点击选择上传文件");
+				 return false ;
+			},
+			error:function(res){
+				CommonUtil.hideFakeloader();
+			$(".a-upload input").val("");//文件清空看第12点
+			$(".a-upload span").html("请点击选择上传文件");
+				tipAlert("服务器异常");
+				return false ;
+			}
+			};
+			$("#piUploadForm").ajaxSubmit(opt);
+			return false;
+
+10、pc端滚动穿透兼容ie，火狐，谷歌，safari；移动端滚动穿透
+11、弹出层background: rgba在ie8上可以点击弹出层后面页面的按钮输入框等等，设置background-image---png背景图
+12、兼容ie8，safari图片上传收到返回结果后的清空功能：
+$(".a-upload #agent-file").val("");
+var file = $(".a-upload").find("#agent-file");
+var file_ele=file.clone();
+file.after(file_ele);
+file.remove();
+13、$("div").close();在ie内核下会出现浏览器关闭窗口提示
+
+
+
+
+14、ie11下，文件上传，上传成功后用val("")清空,会再走一遍change事件
+
+15、火狐和谷歌浏览器，对于，input的type=password自动填充账号与密码，autocomplete="off"无效，需要用autocomplete="new-password"
+
+16、有页面有调整记录接口时，submit提交跳转接口，要用get方式，如果用post浏览器刷新后端接收不到参数，
+GET 请求可被缓存，GET 请求有长度限制，POST 请求不会被缓存，POST 请求对数据长度没有要求
+
+
+
+
+
+
+
+
+
