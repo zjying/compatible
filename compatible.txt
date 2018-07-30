@@ -1,14 +1,14 @@
-1¡¢ÊÖ»ú¶ËÎ¢ĞÅ»òÕßä¯ÀÀÆ÷Ä¬ÈÏ·µ»Ø°´Å¥£¬µã»÷·µ»Ø×ß»º´æ£¬²»Ö´ĞĞÒ³Ãæjs£»Èç¹ûÒ³ÃæÀë¿ªÊ±ÓĞloading£¬Ò³ÃæÒª¼ÓonpagehideÊôĞÔº¯Êı
-2¡¢var dates=new Date("2012-01-02 12:12:12");ÊÖ»úÉÏdatesÎªNaN;pcÉÏÎªÕıÈ·µÄÈÕÆÚ¸ñÊ½£»
-   var dates=new Date("2012-01-02");pcºÍÊÖ»úÉÏdatesÎª2012-01-02 08:00:00;
-   var dates=new Date("2012/01/02");pcºÍÊÖ»úÉÏdatesÎª2012-01-02 00:00:00;
-3¡¢input[type='file'],ÒÆ¶¯¶ËÎÄ¼şÉÏ´«£¬°²×¿Î¢ĞÅÇø±ğjpgºÍjpegÁ½ÖÖ¸ñÊ½£¬iosºÍpc¶¼°Ñjpg¹éÀàÓÚjpeg£¬ËùÒÔĞ´acceptÏŞÖÆÊ±Á½¸ö¶¼ÒªĞ´ÉÏ
-4¡¢input[type='text']ÓÃpadding³Å£¬²»ÒªÖ»ÓÃline-height£¬·ñÔòpc¶Ë£º360ä¯ÀÀÆ÷»áÖ»ÏÔÊ¾ÎÄ×Ö¸ß¶È£»ÒÆ¶¯¶Ë£º½¹µã»áÕ¼Õû¸ö¿òµÄ¸ß¶È
-5¡¢input[type='text']Èç¹ûÉèÖÃrequireÊôĞÔ£¬»ğºüä¯ÀÀÆ÷»á×Ô¶¯¸ø±êÇ©¼ÓÒ»¸öºìÉ«±ß¿ò
-6¡¢var arr=arr1Éî¸´ÖÆ,var arr=arr1.slice(0)Ç³¸´ÖÆ
-7¡¢ÎÄ¼şÉÏ´«¼æÈİie8,ÒªÓÃjq.form.js»òÕßformÌá½»£¬É¾³ıÉÏ´«ÎÄ¼şÉÏ´«¿´µÚ12µã
-8¡¢string.trim(),²»¼æÈİie8,ÒªÓÃ$.trim(string);
-9¡¢ÎÄ¼şÉÏ´«½ÓÊÕ·µ»ØĞÅÏ¢£¨¼æÈİie£©£ººó¶Ë
+1ã€æ‰‹æœºç«¯å¾®ä¿¡æˆ–è€…æµè§ˆå™¨é»˜è®¤è¿”å›æŒ‰é’®ï¼Œç‚¹å‡»è¿”å›èµ°ç¼“å­˜ï¼Œä¸æ‰§è¡Œé¡µé¢jsï¼›å¦‚æœé¡µé¢ç¦»å¼€æ—¶æœ‰loadingï¼Œé¡µé¢è¦åŠ onpagehideå±æ€§å‡½æ•°
+2ã€var dates=new Date("2012-01-02 12:12:12");æ‰‹æœºä¸Šdatesä¸ºNaN;pcä¸Šä¸ºæ­£ç¡®çš„æ—¥æœŸæ ¼å¼ï¼›
+   var dates=new Date("2012-01-02");pcå’Œæ‰‹æœºä¸Šdatesä¸º2012-01-02 08:00:00;
+   var dates=new Date("2012/01/02");pcå’Œæ‰‹æœºä¸Šdatesä¸º2012-01-02 00:00:00;
+3ã€input[type='file'],ç§»åŠ¨ç«¯æ–‡ä»¶ä¸Šä¼ ï¼Œå®‰å“å¾®ä¿¡åŒºåˆ«jpgå’Œjpegä¸¤ç§æ ¼å¼ï¼Œioså’Œpcéƒ½æŠŠjpgå½’ç±»äºjpegï¼Œæ‰€ä»¥å†™accepté™åˆ¶æ—¶ä¸¤ä¸ªéƒ½è¦å†™ä¸Š
+4ã€input[type='text']ç”¨paddingæ’‘ï¼Œä¸è¦åªç”¨line-heightï¼Œå¦åˆ™pcç«¯ï¼š360æµè§ˆå™¨ä¼šåªæ˜¾ç¤ºæ–‡å­—é«˜åº¦ï¼›ç§»åŠ¨ç«¯ï¼šç„¦ç‚¹ä¼šå æ•´ä¸ªæ¡†çš„é«˜åº¦
+5ã€input[type='text']å¦‚æœè®¾ç½®requireå±æ€§ï¼Œç«ç‹æµè§ˆå™¨ä¼šè‡ªåŠ¨ç»™æ ‡ç­¾åŠ ä¸€ä¸ªçº¢è‰²è¾¹æ¡†
+6ã€var arr=arr1æ·±å¤åˆ¶,var arr=arr1.slice(0)æµ…å¤åˆ¶
+7ã€æ–‡ä»¶ä¸Šä¼ å…¼å®¹ie8,è¦ç”¨jq.form.jsæˆ–è€…formæäº¤ï¼Œåˆ é™¤ä¸Šä¼ æ–‡ä»¶ä¸Šä¼ çœ‹ç¬¬12ç‚¹
+8ã€string.trim(),ä¸å…¼å®¹ie8,è¦ç”¨$.trim(string);
+9ã€æ–‡ä»¶ä¸Šä¼ æ¥æ”¶è¿”å›ä¿¡æ¯ï¼ˆå…¼å®¹ieï¼‰ï¼šåç«¯
 	public static void writerJson1(HttpServletResponse response,Object object){
 			try {
 				response.setContentType("text/html; charset=utf-8");
@@ -18,7 +18,7 @@
 			}
 	}
 
-Ç°¶Ë£º var opt = {
+å‰ç«¯ï¼š var opt = {
 			type: "post",
 			url:ctx + "/businessUser/importExcel.do",
 			success: function(res){
@@ -27,42 +27,51 @@
 			console.log(resJson);
 			tipAlert(resJson.msg);
 			CommonUtil.hideFakeloader();
-			$(".a-upload input").val("");//ÎÄ¼şÇå¿Õ¿´µÚ12µã
-			$(".a-upload span").html("Çëµã»÷Ñ¡ÔñÉÏ´«ÎÄ¼ş");
+			$(".a-upload input").val("");//æ–‡ä»¶æ¸…ç©ºçœ‹ç¬¬12ç‚¹
+			$(".a-upload span").html("è¯·ç‚¹å‡»é€‰æ‹©ä¸Šä¼ æ–‡ä»¶");
 				 return false ;
 			},
 			error:function(res){
 				CommonUtil.hideFakeloader();
-			$(".a-upload input").val("");//ÎÄ¼şÇå¿Õ¿´µÚ12µã
-			$(".a-upload span").html("Çëµã»÷Ñ¡ÔñÉÏ´«ÎÄ¼ş");
-				tipAlert("·şÎñÆ÷Òì³£");
+			$(".a-upload input").val("");//æ–‡ä»¶æ¸…ç©ºçœ‹ç¬¬12ç‚¹
+			$(".a-upload span").html("è¯·ç‚¹å‡»é€‰æ‹©ä¸Šä¼ æ–‡ä»¶");
+				tipAlert("æœåŠ¡å™¨å¼‚å¸¸");
 				return false ;
 			}
 			};
 			$("#piUploadForm").ajaxSubmit(opt);
 			return false;
 
-10¡¢pc¶Ë¹ö¶¯´©Í¸¼æÈİie£¬»ğºü£¬¹È¸è£¬safari£»ÒÆ¶¯¶Ë¹ö¶¯´©Í¸
-11¡¢µ¯³ö²ãbackground: rgbaÔÚie8ÉÏ¿ÉÒÔµã»÷µ¯³ö²ãºóÃæÒ³ÃæµÄ°´Å¥ÊäÈë¿òµÈµÈ£¬ÉèÖÃbackground-image---png±³¾°Í¼
-12¡¢¼æÈİie8£¬safariÍ¼Æ¬ÉÏ´«ÊÕµ½·µ»Ø½á¹ûºóµÄÇå¿Õ¹¦ÄÜ£º
+10ã€pcç«¯æ»šåŠ¨ç©¿é€å…¼å®¹ieï¼Œç«ç‹ï¼Œè°·æ­Œï¼Œsafariï¼›ç§»åŠ¨ç«¯æ»šåŠ¨ç©¿é€
+11ã€å¼¹å‡ºå±‚background: rgbaåœ¨ie8ä¸Šå¯ä»¥ç‚¹å‡»å¼¹å‡ºå±‚åé¢é¡µé¢çš„æŒ‰é’®è¾“å…¥æ¡†ç­‰ç­‰ï¼Œè®¾ç½®background-image---pngèƒŒæ™¯å›¾
+12ã€å…¼å®¹ie8ï¼Œsafariå›¾ç‰‡ä¸Šä¼ æ”¶åˆ°è¿”å›ç»“æœåçš„æ¸…ç©ºåŠŸèƒ½ï¼š
 $(".a-upload #agent-file").val("");
 var file = $(".a-upload").find("#agent-file");
 var file_ele=file.clone();
 file.after(file_ele);
 file.remove();
-13¡¢$("div").close();ÔÚieÄÚºËÏÂ»á³öÏÖä¯ÀÀÆ÷¹Ø±Õ´°¿ÚÌáÊ¾
+13ã€$("div").close();åœ¨ieå†…æ ¸ä¸‹ä¼šå‡ºç°æµè§ˆå™¨å…³é—­çª—å£æç¤º
 
 
 
 
-14¡¢ie11ÏÂ£¬ÎÄ¼şÉÏ´«£¬ÉÏ´«³É¹¦ºóÓÃval("")Çå¿Õ,»áÔÙ×ßÒ»±échangeÊÂ¼ş
+14ã€ie11ä¸‹ï¼Œæ–‡ä»¶ä¸Šä¼ ï¼Œä¸Šä¼ æˆåŠŸåç”¨val("")æ¸…ç©º,ä¼šå†èµ°ä¸€échangeäº‹ä»¶
 
-15¡¢»ğºüºÍ¹È¸èä¯ÀÀÆ÷£¬¶ÔÓÚ£¬inputµÄtype=password×Ô¶¯Ìî³äÕËºÅÓëÃÜÂë£¬autocomplete="off"ÎŞĞ§£¬ĞèÒªÓÃautocomplete="new-password"
+15ã€ç«ç‹å’Œè°·æ­Œæµè§ˆå™¨ï¼Œå¯¹äºï¼Œinputçš„type=passwordè‡ªåŠ¨å¡«å……è´¦å·ä¸å¯†ç ï¼Œautocomplete="off"æ— æ•ˆï¼Œéœ€è¦ç”¨autocomplete="new-password"
 
-16¡¢ÓĞÒ³ÃæÓĞµ÷Õû¼ÇÂ¼½Ó¿ÚÊ±£¬submitÌá½»Ìø×ª½Ó¿Ú£¬ÒªÓÃget·½Ê½£¬Èç¹ûÓÃpostä¯ÀÀÆ÷Ë¢ĞÂºó¶Ë½ÓÊÕ²»µ½²ÎÊı£¬
-GET ÇëÇó¿É±»»º´æ£¬GET ÇëÇóÓĞ³¤¶ÈÏŞÖÆ£¬POST ÇëÇó²»»á±»»º´æ£¬POST ÇëÇó¶ÔÊı¾İ³¤¶ÈÃ»ÓĞÒªÇó
+16ã€æœ‰é¡µé¢æœ‰è°ƒæ•´è®°å½•æ¥å£æ—¶ï¼Œsubmitæäº¤è·³è½¬æ¥å£ï¼Œè¦ç”¨getæ–¹å¼ï¼Œå¦‚æœç”¨postæµè§ˆå™¨åˆ·æ–°åç«¯æ¥æ”¶ä¸åˆ°å‚æ•°ï¼Œ
+GET è¯·æ±‚å¯è¢«ç¼“å­˜ï¼ŒGET è¯·æ±‚æœ‰é•¿åº¦é™åˆ¶ï¼ŒPOST è¯·æ±‚ä¸ä¼šè¢«ç¼“å­˜ï¼ŒPOST è¯·æ±‚å¯¹æ•°æ®é•¿åº¦æ²¡æœ‰è¦æ±‚
 
-
+17ã€åˆ¤æ–­æ˜¯ä¸æ˜¯æ•°ç»„ï¼Œå…¼å®¹ie8 
+function isArray(value){
+	if (typeof Array.isArray === "function") {
+		console.log(111)
+		return Array.isArray(value);
+	}else{//å…¼å®¹ie8
+		console.log(222)
+		return Object.prototype.toString.call(value) === "[object Array]";
+	}
+}
 
 
 
